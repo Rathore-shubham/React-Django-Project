@@ -1,0 +1,45 @@
+# Python bytecode files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django migrations
+*/migrations/*
+
+# Database
+db.sqlite3
+*.sqlite3
+
+# Django settings
+*.env
+.env
+
+# Virtual environment
+venv/
+.venv/
+env/
+.env/
+
+# Media files (if using media upload)
+/media/
+
+# Static files (if using collectstatic)
+/static/
+
+# Log files
+*.log
+
+# Django coverage reports
+.coverage
+.tox/
+.nox/
+.coverage.*
+.hypothesis/
+
+# IDE/Editor specific files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+.*.swp
+.*.swo
